@@ -1,0 +1,12 @@
+.show-item {
+  width: 25%;
+  border: 10px solid #fff;
+  background: #eee;
+  padding: 5px;
+}
+
+@media screen and (max-width: 2000px) {
+  .show-item {
+	width: 33%;
+  }
+}

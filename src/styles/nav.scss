@@ -1,0 +1,25 @@
+@import "colors";
+
+nav {
+    background-color: $main-color;
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        
+        li {
+            margin: 15px;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            padding: 15px;
+            &:hover{
+                background-color: #3f3f3f;
+            }
+            
+        }
+    }
+}
+    

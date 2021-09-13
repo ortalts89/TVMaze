@@ -1,0 +1,30 @@
+@import "colors";
+$input-height: 40px;
+$input-radius: 20px;
+
+.search-form {
+    display: flex;
+    align-items: center;
+ 
+    input, button {
+        height: $input-height;
+        border: none;
+    }
+    input {
+        border-radius: $input-radius 0 0 $input-radius;
+        padding: 8px;
+        min-width: 400px;
+
+        &::placeholder {
+            color: #ccc;          
+        }
+    }
+    button {
+       background-color:$main-color;
+       padding: 10px 40px;
+       border-radius: 0 $input-radius $input-radius 0;
+    }
+    .submit-img {
+        height: 100%;          
+    }
+}
